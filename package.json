@@ -1,0 +1,14 @@
+{
+  "name": "app.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minifyCSS": "uglifycss css/style.css > min-css/style.min.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglifycss": "0.0.29"
+  }
+}
