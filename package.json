@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "minifyCSS": "uglifycss css/style.css > min-css/style.min.css"
+    "minifyCSS": "uglifycss css/.css > min-css/style.min.css"
   },
   "author": "",
   "license": "ISC",

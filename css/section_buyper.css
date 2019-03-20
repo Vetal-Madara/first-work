@@ -1,0 +1,36 @@
+.video{
+    width: 100%;
+    height: 568px;
+    background: #000;
+}
+.article-subtitle{
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #575757;
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+.article-text:last-child{
+    position: relative;
+    top: 30px;
+    left: 55px;
+    
+}
+.article-text{
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    max-width: 400px;
+}
+@media screen and (max-width: 576px){
+    .article-subtitle{
+        font-size: 37px;
+    }
+    .article-text{
+        font-size: 22px;
+    }
+    .article-text:last-child{
+        position: static;
+    }
+}
